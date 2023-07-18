@@ -1,0 +1,117 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #2C3333
+}
+
+a {
+    color: #E7F6F2;
+    text-decoration: none
+}
+
+h1 {
+    color: #A5C9CA
+}
+
+h2 {
+    color: #A5C9CA
+}
+
+p {
+    color: #E7F6F2;
+    text-align: justify;
+}
+
+li {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 2px
+}
+
+.bar {
+    background-color: #395B64;
+    padding: 10px;
+    border-top: solid 1px #395B64;
+    border-bottom: solid 1px #395B64;
+}
+
+header {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 105px;
+}
+
+article {
+    width: 1000px;
+    min-width: 720px;
+    border-left: solid 1px #395B64;
+    border-right: solid 1px #395B64;
+    padding: 30px 50px;
+}
+
+footer {
+    min-height: 100px;
+    border-top: solid 1px #395B64
+}
+
+.sidebar {
+    width: 350px;
+    min-width: 150px
+}
+
+.anchors {
+    width: 350px
+}
+
+.anchors-list {
+    padding: 30px 50px;
+}
+
+.flex {
+    display: flex
+}
+
+.center-item-align {
+    align-items: center
+}
+
+.left-justify-content {
+    justify-content: left
+}
+
+.center-justify-content {
+    justify-content: center
+}
+
+.right-justify-content {
+    justify-content: right
+}
+
+#login {
+    width: 400px
+}
+
+#entrar {
+    margin-left: 45px
+}
+
+#searchfield {
+    margin: 0 25px;
+    width: 350px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#logo_wiki {
+    max-width: 280px;
+    padding-left: 120px;
+}
